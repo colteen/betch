@@ -20,7 +20,7 @@ void MainComponent::paint (juce::Graphics& g)
 
     g.setFont (juce::Font (69.0f));
     g.setColour (juce::Colours::firebrick);
-    g.drawText ("titties", getLocalBounds(), juce::Justification::centred, true);
+    g.drawText ("t", getLocalBounds(), juce::Justification::centred, true);
 }
 
 void MainComponent::resized()
